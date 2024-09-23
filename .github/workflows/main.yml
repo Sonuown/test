@@ -28,6 +28,7 @@ jobs:
           git config --global user.email "${{ env.GitHubMail }}"
           git config --global user.name "${{ env.GitHubName }}"
           pip install telebot
+          pip install pymongo
           pip install flask
           pip install aiogram
           pip install pyTelegramBotAPI
